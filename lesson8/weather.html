@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            padding: 20px;
+            text-align: center;
+        }
+        .showInfo{
+            padding: 30px 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.25);
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 id="l">...</h2>
+        <div class="showInfo">
+
+
+        </div>
+        <form id="a">
+            <input name="city" type="text" placeholder="Enter your City">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="./weather.js"></script>
+</body>
+</html>
